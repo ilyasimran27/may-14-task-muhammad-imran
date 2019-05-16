@@ -1,0 +1,77 @@
+body{
+    margin:0;
+}
+.mar{
+    background-color:red;
+    color:black;
+}
+#uni{
+    background-color:yellow;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color:#4c4c4c;
+}
+.logo{
+    
+    
+    
+}
+.logo img{
+    width:30%;
+    margin:10px;
+    margin-bottom:-2px;
+   
+}
+.main-nav{
+    
+}
+
+ul li{
+    display:inline-block;
+    margin-right:20px;
+    text-transform: capitalize;
+    font-size:20px;
+    color:rgb(202,202,202);
+    font-weight:bold;
+}
+#join{
+    width:100%;
+    
+    background-image: url(images/floral.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-color:#e88790;
+    display:flex;
+    flex-direction:column;
+    padding-top:15px ;
+    padding-bottom:15px;
+    align-items: center;
+    
+
+   
+  
+    
+
+}
+#join h1{
+    font-size:40px;
+    font-weight: bolder;
+}
+#join p{
+flex : 0 1 30%;
+border-bottom:2px solid black;
+border-top:2px solid black;
+padding:20px 0;
+
+}
+#join button{
+    padding:10px 50px;
+    color:#e88790;
+    background-color:#170d0e;
+    font-size:20px;
+    border:1px solid black;
+    text-transform: capitalize;
+}
