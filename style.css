@@ -24,9 +24,7 @@ header{
     margin-bottom:-2px;
    
 }
-.main-nav{
-    
-}
+
 
 ul li{
     display:inline-block;
@@ -61,10 +59,14 @@ ul li{
     font-weight: bolder;
 }
 #join p{
-flex : 0 1 30%;
+    text-align: center;
+    
 border-bottom:2px solid black;
 border-top:2px solid black;
 padding:20px 0;
+margin-left :20px;
+margin-right:20px;
+
 
 }
 #join button{
@@ -75,3 +77,68 @@ padding:20px 0;
     border:1px solid black;
     text-transform: capitalize;
 }
+#services {
+    width:100%;
+    
+    background-image: url(images/floral.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-color:#e9e6e1;
+    display:flex;
+flex-direction: column;
+padding-bottom:20px;
+
+
+
+}
+#services h4{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    
+}
+#services #learn{
+    
+    display:flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#html > figure{
+    
+    
+    text-align: center;
+}
+
+#html figure i{
+font-size:100px;
+}
+
+
+#css > figure{
+    
+    text-align: center;
+}
+
+#css figure i{
+font-size:100px;
+}
+#java > figure{
+    
+    text-align: center;
+}
+#java figure i{
+font-size:100px;
+}
+@media all and (max-width:600px){
+    #services #learn{
+    
+        flex-direction:column;
+        align-items: center;
+        
+        
+    }
+
+}
+
