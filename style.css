@@ -112,7 +112,13 @@ padding-bottom:20px;
 }
 
 #html figure i{
+
 font-size:100px;
+}
+#services i:hover{
+    transition: 1s;
+color:red;
+    
 }
 
 
@@ -219,6 +225,7 @@ font-size:20px;
     border-radius:50px;
     margin-left:2px;
     outline:none;
+    transition: 1s;
 }
 #pattern figure:hover{
     background-color: black;
@@ -233,6 +240,9 @@ font-size:20px;
 color:black;
 background-color:white;
 cursor:pointer;
+}
+header .fas,.fa-bars{
+    display:none;
 }
 
 
@@ -253,6 +263,16 @@ cursor:pointer;
        
      
      
+     }
+     .main-nav{
+         display:none;
+     }
+     header .fas,.fa-bars{
+         display:block;
+         font-size:30px;
+         color:white;
+         margin:20px;
+
      }
 
     
