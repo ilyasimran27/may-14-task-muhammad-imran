@@ -202,9 +202,16 @@ font-weight: 900;
 #pattern figure figcaption{
     font-family: 'Lobster', cursive;
    opacity: 0;
-   position: absolute;
-   bottom:30%;
-   left:22%;
+   width:100%;
+   height: 100%;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+ position: absolute;
+ top:0;
+ left:0;
   
 
 
@@ -214,17 +221,20 @@ figcaption h2{
     
   font-size:40px;
     color:white;
+    margin-top:5px;
 }
 #pattern figure figcaption i{
-
-padding:10px;
 font-size:20px;
+padding:15px 10px;
+border-radius:100%;
+outline:none;
+
 
 }
 #pattern figure figcaption button{
     color:white;
     background-color:black;
-    border-radius:50px;
+    border-radius:100%;
     margin-left:2px;
     outline:none;
     transition: 1s;
@@ -262,15 +272,15 @@ header .fas,.fa-bars{
     background-color:transparent;
     color:black;
     margin:10px;
-    border-radius:35px;
-    padding:17px 20px;
+    border-radius:100%;
+    padding:15px 13px;
     border:1px solid black;
     outline:none;
     transition: 1s;
     cursor:pointer;
 }
 #contact button i{
-    font-size:30px;
+    font-size:20px;
     outline:none;
     
     
@@ -315,14 +325,7 @@ footer p:hover i{
         
         
     }
-    #pattern figure figcaption{
-        
-        bottom:10%;
-        left:18%;
-       
-     
-     
-     }
+   
      .main-nav{
          display:none;
      }
